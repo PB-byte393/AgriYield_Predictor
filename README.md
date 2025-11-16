@@ -32,30 +32,6 @@ Frontend: HTML, CSS (Bootstrap 5), JavaScript (ES6+)
 
 Data Analysis: Jupyter Notebooks
 
-📂 Project Structure:
-
-An overview of the project directory.
-
-AgriYield_Predictor/
-├── 01_raw/             # Raw datasets (crop_yield.csv, Soil Data.csv)
-├── 02_intermediate/    # Processed data (merged.csv, train/test splits)
-├── 03_notebooks/       # Jupyter notebooks for each milestone
-│   ├── 01_Data_Collection_and_Merging.ipynb
-│   ├── 02_EDA_and_Feature_Engineering.ipynb
-│   └── 03_Model_Training.ipynb
-├── 04_reports/         # Output figures (heatmap, feature importance)
-├── 05_models/          # Final trained model (final_model.pkl)
-│   └── categorical_encodings.json
-├── demo/               # Screenshot of images
-├── static/
-│   ├── css/style.css
-│   ├── js/main.js
-│   └── videos/Video_01.mp4
-├── templates/
-│   └── index.html
-└── app.py              # The Flask application
-
-
 🤖 Machine Learning Pipeline:
 
 The project follows a complete, end-to-end data science workflow, documented in the 03_notebooks/ folder.
