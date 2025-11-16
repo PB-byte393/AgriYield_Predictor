@@ -1,0 +1,17 @@
+This file lists the core Python packages required to run the AgriYield Predictor Flask application.
+
+The web server framework
+
+Flask==3.0.3
+
+Used by app.py to load the scikit-learn model (.pkl file)
+
+joblib==1.4.2
+
+The core machine learning library (the model is a scikit-learn object)
+
+scikit-learn==1.5.0
+
+Required for numerical operations and creating the feature array
+
+numpy==1.26.4
